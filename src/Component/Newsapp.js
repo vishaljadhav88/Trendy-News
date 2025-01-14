@@ -40,7 +40,7 @@ const userInput = (event) => {
   return (
     <div>
       <nav>
-            <div>
+            <div className='h1'>
                 <h1>Trendy News</h1>
             </div>
             <ul>
@@ -51,6 +51,9 @@ const userInput = (event) => {
             <div className='searchBar'></div>
                  <input type='text' placeholder='Search News' value={search} onChange={handleInput}/>
                  <button onClick={getData} >Search</button>
+
+       
+
       </nav>
       <div>
            <p className='head'>Stay Update With TrendyNews</p>

@@ -121,3 +121,10 @@ nav ul{
   font-size: 26px;
 }
 
+.h1{
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #f30000;
+}
+
